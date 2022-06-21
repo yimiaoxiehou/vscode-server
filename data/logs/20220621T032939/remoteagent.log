@@ -1,0 +1,57 @@
+[2022-06-21 03:29:39.635] [remoteagent] [info] 
+
+
+
+
+[2022-06-21 03:29:39.636] [remoteagent] [info] Extension host agent started.
+[2022-06-21 03:29:41.483] [remoteagent] [info] [172.17.0.1][22f08b4c][ManagementConnection] New connection established.
+[2022-06-21 03:29:41.606] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /app/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /app/code-server/lib/vscode/out/bootstrap-amd.js
+- /app/code-server/out/node/util.js
+- /app/code-server/out/node/cli.js
+- /app/code-server/out/node/entry.js
+[2022-06-21 03:29:42.722] [remoteagent] [info] [172.17.0.1][9aa5a22a][ExtensionHostConnection] New connection established.
+[2022-06-21 03:29:42.754] [remoteagent] [info] [172.17.0.1][9aa5a22a][ExtensionHostConnection] <658> Launched Extension Host Process.
+[2022-06-21 03:37:30.350] [remoteagent] [info] Getting Manifest... golang.go
+[2022-06-21 03:37:31.575] [remoteagent] [info] Getting Manifest... neonxp.gotools
+[2022-06-21 03:37:33.008] [remoteagent] [info] Installing extension: golang.go
+[2022-06-21 03:37:33.356] [remoteagent] [info] Installing extension: neonxp.gotools
+[2022-06-21 03:37:37.042] [remoteagent] [info] Downloaded extension: neonxp.gotools /config/data/CachedExtensionVSIXs/neonxp.gotools-0.0.7
+[2022-06-21 03:37:37.103] [remoteagent] [info] Extracted extension to /config/extensions/.aed9b78b-016f-4159-87da-b93419eb362e: neonxp.gotools
+[2022-06-21 03:37:37.110] [remoteagent] [info] Renamed to /config/extensions/neonxp.gotools-0.0.7
+[2022-06-21 03:37:37.112] [remoteagent] [info] Extracting completed. neonxp.gotools
+[2022-06-21 03:37:37.113] [remoteagent] [info] Extension installed successfully: neonxp.gotools
+[2022-06-21 03:37:37.152] [remoteagent] [info] Downloaded extension: golang.go /config/data/CachedExtensionVSIXs/golang.go-0.33.1
+[2022-06-21 03:37:37.523] [remoteagent] [info] Extracted extension to /config/extensions/.a396c2ac-672f-428a-a878-9e549cc2bcf0: golang.go
+[2022-06-21 03:37:37.534] [remoteagent] [info] Renamed to /config/extensions/golang.go-0.33.1
+[2022-06-21 03:37:37.543] [remoteagent] [info] Extracting completed. golang.go
+[2022-06-21 03:37:37.544] [remoteagent] [info] Extension installed successfully: golang.go
+[2022-06-21 03:37:52.776] [remoteagent] [info] Getting Manifest... hookyqr.beautify
+[2022-06-21 03:37:54.584] [remoteagent] [info] Installing extension: hookyqr.beautify
+[2022-06-21 03:37:58.004] [remoteagent] [info] Downloaded extension: hookyqr.beautify /config/data/CachedExtensionVSIXs/hookyqr.beautify-1.4.11
+[2022-06-21 03:37:58.638] [remoteagent] [info] Getting Manifest... foxundermoon.shell-format
+[2022-06-21 03:37:58.706] [remoteagent] [info] Extracted extension to /config/extensions/.7f0eb30c-e915-4f87-9a0c-0bf3685db852: hookyqr.beautify
+[2022-06-21 03:37:58.713] [remoteagent] [info] Renamed to /config/extensions/hookyqr.beautify-1.4.11
+[2022-06-21 03:37:58.716] [remoteagent] [info] Extracting completed. hookyqr.beautify
+[2022-06-21 03:37:58.716] [remoteagent] [info] Extension installed successfully: hookyqr.beautify
+[2022-06-21 03:38:00.393] [remoteagent] [info] Installing extension: foxundermoon.shell-format
+[2022-06-21 03:38:02.971] [remoteagent] [info] Downloaded extension: foxundermoon.shell-format /config/data/CachedExtensionVSIXs/foxundermoon.shell-format-7.0.1
+[2022-06-21 03:38:02.995] [remoteagent] [info] Extracted extension to /config/extensions/.1b8f9ea0-1aaa-407a-942d-f5dff1d3dc34: foxundermoon.shell-format
+[2022-06-21 03:38:03.000] [remoteagent] [info] Renamed to /config/extensions/foxundermoon.shell-format-7.0.1
+[2022-06-21 03:38:03.003] [remoteagent] [info] Extracting completed. foxundermoon.shell-format
+[2022-06-21 03:38:03.003] [remoteagent] [info] Extension installed successfully: foxundermoon.shell-format
+[2022-06-21 03:38:53.069] [remoteagent] [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+[2022-06-21 03:38:54.837] [remoteagent] [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+[2022-06-21 03:38:58.232] [remoteagent] [info] Downloaded extension: ms-ceintl.vscode-language-pack-zh-hans /config/data/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-zh-hans-1.66.3
+[2022-06-21 03:38:58.769] [remoteagent] [info] Extracted extension to /config/extensions/.30154bcb-8cfb-4e64-becf-f22cd8df68b4: ms-ceintl.vscode-language-pack-zh-hans
+[2022-06-21 03:38:58.777] [remoteagent] [info] Renamed to /config/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.66.3
+[2022-06-21 03:38:58.780] [remoteagent] [info] Extracting completed. ms-ceintl.vscode-language-pack-zh-hans
+[2022-06-21 03:38:58.780] [remoteagent] [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+[2022-06-21 03:38:58.966] [remoteagent] [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+[2022-06-21 03:41:04.210] [remoteagent] [info] [172.17.0.1][22f08b4c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-06-21 03:41:04.370] [remoteagent] [info] [172.17.0.1][9aa5a22a][ExtensionHostConnection] <658> Extension Host Process exited with code: 0, signal: null.
+[2022-06-21 03:41:05.851] [remoteagent] [info] [172.17.0.1][62945fc9][ManagementConnection] New connection established.
+[2022-06-21 03:41:07.081] [remoteagent] [info] [172.17.0.1][92fc4b82][ExtensionHostConnection] New connection established.
+[2022-06-21 03:41:07.143] [remoteagent] [info] [172.17.0.1][92fc4b82][ExtensionHostConnection] <772> Launched Extension Host Process.

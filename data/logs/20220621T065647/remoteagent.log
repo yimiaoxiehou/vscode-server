@@ -1,0 +1,25 @@
+[2022-06-21 06:56:47.971] [remoteagent] [info] 
+
+
+
+
+[2022-06-21 06:56:47.972] [remoteagent] [info] Extension host agent started.
+[2022-06-21 06:56:48.122] [remoteagent] [error] [172.19.0.1][dff5bdd0][ManagementConnection] Unknown reconnection token (never seen).
+[2022-06-21 06:56:48.131] [remoteagent] [error] [172.19.0.1][f6ea9ffd][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-06-21 06:56:51.808] [remoteagent] [info] [172.19.0.1][61c37255][ManagementConnection] New connection established.
+[2022-06-21 06:56:53.191] [remoteagent] [info] [172.19.0.1][71ccdfc5][ExtensionHostConnection] New connection established.
+[2022-06-21 06:56:53.294] [remoteagent] [info] [172.19.0.1][71ccdfc5][ExtensionHostConnection] <760> Launched Extension Host Process.
+[2022-06-21 07:01:45.042] [remoteagent] [info] Getting Manifest... abusaidm.html-snippets
+[2022-06-21 07:01:47.030] [remoteagent] [info] Installing extension: abusaidm.html-snippets
+[2022-06-21 07:01:49.620] [remoteagent] [info] Downloaded extension: abusaidm.html-snippets /config/data/CachedExtensionVSIXs/abusaidm.html-snippets-0.2.1
+[2022-06-21 07:01:49.662] [remoteagent] [info] Extracted extension to /config/extensions/.5e00c38f-11f7-45ec-9cfd-0873143e0fdd: abusaidm.html-snippets
+[2022-06-21 07:01:49.668] [remoteagent] [info] Renamed to /config/extensions/abusaidm.html-snippets-0.2.1
+[2022-06-21 07:01:49.670] [remoteagent] [info] Extracting completed. abusaidm.html-snippets
+[2022-06-21 07:01:49.671] [remoteagent] [info] Extension installed successfully: abusaidm.html-snippets
+[2022-06-21 07:02:01.019] [remoteagent] [info] Getting Manifest... pucelle.vscode-css-navigation
+[2022-06-21 07:02:02.830] [remoteagent] [info] Installing extension: pucelle.vscode-css-navigation
+[2022-06-21 07:02:06.274] [remoteagent] [info] Downloaded extension: pucelle.vscode-css-navigation /config/data/CachedExtensionVSIXs/pucelle.vscode-css-navigation-1.13.2
+[2022-06-21 07:02:08.490] [remoteagent] [info] Extracted extension to /config/extensions/.bbe534a3-f9d2-4a9e-9cff-f0a57fcd6e6c: pucelle.vscode-css-navigation
+[2022-06-21 07:02:08.505] [remoteagent] [info] Renamed to /config/extensions/pucelle.vscode-css-navigation-1.13.2
+[2022-06-21 07:02:08.508] [remoteagent] [info] Extracting completed. pucelle.vscode-css-navigation
+[2022-06-21 07:02:08.509] [remoteagent] [info] Extension installed successfully: pucelle.vscode-css-navigation

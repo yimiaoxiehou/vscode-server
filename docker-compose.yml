@@ -1,0 +1,12 @@
+version: "3.5"
+services:
+  code-server:
+    image: yimiaoxiehou/code-server:node14-go16
+    container_name: code-server
+    ports:
+      - 8443:8443
+    environment:
+      - SUDO_PASSWORD=c2345541z
+      - PASSWORD=c2345541z
+      - PUID=1000
+      - PGID=0
