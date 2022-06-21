@@ -76,3 +76,10 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Add Docker Hub Description
+        uses: peter-evans/dockerhub-description@v2
+        env:
+          DOCKERHUB_USERNAME: ${{ github.actor }}
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_TOKEN }}
+          DOCKERHUB_REPOSITORY: ${{ env.REGISTRY }}
