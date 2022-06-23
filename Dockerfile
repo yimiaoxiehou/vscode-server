@@ -22,7 +22,8 @@ RUN echo "**** install golang ****" && \
     rm -rf ${GO_TGZ} && \
     mv go /usr/local
 
-RUN chmod -R g+w /usr/local/go /var/local/go
+RUN chmod -R g+w /usr/local/go 
+RUN chmod -R g+w /var/local/go
 
 
 RUN echo "**** go get for vscode ****" && \
