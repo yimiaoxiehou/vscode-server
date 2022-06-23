@@ -34,10 +34,13 @@ RUN echo "**** go get for vscode ****" && \
     go get -v honnef.co/go/tools && \
     go get -v golang.org/x/tools/gopls
 
+
+RUN chmod -R g+w /usr/lib/go
+
 RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 RUN rm -rf setup_14.*
 RUN apt-get install -y nodejs
-RUN chmod g+w /usr/lib/node_modules
+RUN chmod -R g+w /usr/lib/node_modules
 RUN npm i -g yarn node-gyp
 
 

@@ -5,6 +5,10 @@ services:
     container_name: code-server
     ports:
       - 8443:8443
+    volumes:
+      - ~/.ssh:/root/.ssh
+      - ~/.ssh:/config/.ssh
+      - ./workspace:/config/workspace
     environment:
       - SUDO_PASSWORD=c2345541z
       - PASSWORD=c2345541z
