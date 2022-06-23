@@ -22,6 +22,9 @@ RUN echo "**** install golang ****" && \
     rm -rf ${GO_TGZ} && \
     mv go /usr/local
 
+RUN chmod -R g+w /usr/local/go
+
+
 RUN echo "**** go get for vscode ****" && \
     go get -v golang.org/x/tools/gopls && \
     go get -v github.com/ramya-rao-a/go-outline && \
@@ -35,7 +38,6 @@ RUN echo "**** go get for vscode ****" && \
     go get -v golang.org/x/tools/gopls
 
 
-RUN chmod -R g+w /usr/lib/go
 
 RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 RUN rm -rf setup_14.*
